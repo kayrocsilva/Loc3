@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren');
+
+footer {
+    background-color: var(--cor-fundo-menu);
+    color: #000;
+}
+
+footer a {
+    color: #000;
+}

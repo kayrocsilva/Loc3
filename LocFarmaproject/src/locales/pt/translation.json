@@ -1,0 +1,5 @@
+{
+    "welcome": "Bem-vindo à nossa aplicação!",
+    "hello": "Olá, {{name}}!",
+    "button": "Clique aqui!"
+  }

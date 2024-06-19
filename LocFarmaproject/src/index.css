@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=McLaren');
+
+
+/* variáveis */
+:root {
+    --cor-fundo-pagina: #e6f6eb;
+    --cor-fundo-menu: #f8f9fa;
+    --cor-texto: #000;
+    --cor-facebook-icone: #3b5998;
+    --cor-whatsapp-icone: #25d366;
+    --cor-botao-accordion: #f8f9fa;
+}
+
+.precocard {
+        color: #7c0404;
+        background-color: #ebf797;
+        text-decoration: solid;
+        font-weight: bold;
+
+}
+
+:root[data-theme='dark'] {
+    --cor-fundo-pagina: #5b5b5b;
+    --cor-fundo-menu: #d9d9d9;
+    --cor-texto: #fff;
+}
+
+body {
+    background-color: var(--cor-fundo-pagina);
+    color: var(--cor-texto);
+    height: 100%;
+}
+
+/* botões */
+.btn-primary {
+    background-color: #2b45f5;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2b45f5;
+}
+
+/* menu */
+.menu {
+    background-color: var(--cor-fundo-menu);
+}
+
+.menu{
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.nav-link {
+  border-color: #000;  
+}
+
+.menu .nav-link:hover {
+    border-color: #000;
+}
+
+.menu .active {
+    font-weight: bolder;
+}
+
+/* footer */
+footer {
+    background-color: var(--cor-fundo-menu);
+    color: #000;
+}
+
+footer a {
+    color: #000;
+}
+
+/* filtro */
+.filtro {
+    background-color: var(--cor-fundo-menu);
+    color: #000;
+}
+
+/* modal */
+.modal {
+    color: #000;
+}
+
+/* fonte títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'McLaren', sans-serif;
+}
+
+/* imagem do carousel */
+.carousel-item img {
+    height: 350px;
+}
+
+/* imagem do card */
+.card img {
+    height: 200px;
+}
+
+.card .produto-relacionado {
+    height: 250px;
+}
+
+.card .equipe {
+    height: 250px;
+}
+
+/* imagem produto (ver detalhes) */
+.produto-detalhe {
+    height: 400px;
+}
+
+/* cores ícones */
+.cor-facebook-icone {
+    background-color: var(--cor-facebook-icone);
+}
+
+.cor-whatsapp-icone {
+    background-color: var(--cor-whatsapp-icone);
+}
+
+/* accordion */
+.accordion-button {
+    background-color: var(--cor-botao-accordion);
+    color: #000;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--cor-botao-accordion);
+    color: #000;
+}
+
+/* chat */
+#chat-icon {
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.chat {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    z-index: 1;
+    display: none;
+    color: #000;
+}
+
+.chat .chat-header {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat .chat-body {
+    padding: 10px;
+    height: 300px;
+}
+
+.chat .chat-footer {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-chat {
+    cursor: pointer;
+}
